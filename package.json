@@ -1,0 +1,28 @@
+{
+  "name": "fb-dashboard",
+  "version": "1.0.0",
+  "description": "Messenger automation dashboard with cookie login and real-time log view",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "express-session": "^1.18.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "node-fetch": "^3.3.2",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "josh-fca": "^1.0.4"
+  }
+}
